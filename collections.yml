@@ -8,7 +8,7 @@ collections:
   - id: TELLUS_GRACE_MASCON_CRI_GRID_RL05_V2_OCEAN
     path: /data/grace/*ocean*.nc
     variable: lwe_thickness
-    priority: 2
+    priority: 1
     forward-processing-priority: 6
 
   - id: AVHRR_OI-NCEI-L4-GLOB-v2.0

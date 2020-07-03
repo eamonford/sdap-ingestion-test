@@ -6,7 +6,7 @@ collections:
     forward-processing-priority: 10
 
   - id: TELLUS_GRACE_MASCON_CRI_GRID_RL05_V2_OCEAN
-    path: /data/grace/*ocean*.nc
+    path: /data/testing/*ocean*.nc
     variable: lwe_thickness
     priority: 1
     forward-processing-priority: 6

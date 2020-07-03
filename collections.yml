@@ -1,8 +1,8 @@
 collections:
-  - id: TELLUS_GRACE_MASCON_CRI_GRID_RL05_V2_LAND
-    path: /data/grace/*land*.nc
-    variable: lwe_thickness
-    priority: 1
+  - id: sst
+    path: /data/sst/*SST*.nc
+    variable: analysed_sst
+    priority: 10
     forward-processing-priority: 10
 
   - id: TELLUS_GRACE_MASCON_CRI_GRID_RL05_V2_OCEAN

@@ -5,6 +5,6 @@ collections:
     priority: 1
   - id: AVHRR_OI-NCEI-L4-GLOB-v2.0-anomaly
     path: /data/avhrr-anomaly/*.nc
-    variable: analysed_sst
+    variable: analysed_sst_ano
     priority: 5
 

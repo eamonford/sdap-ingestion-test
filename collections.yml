@@ -11,4 +11,3 @@ collections:
     path: /data/avhrr_clim/*.nc
     variable: analysed_sst
     priority: 5
-

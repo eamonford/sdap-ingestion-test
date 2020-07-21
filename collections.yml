@@ -1,6 +1,12 @@
 collections:
-   - id: /data/web/giri/images/wind_speed/ascata_l2_coastal/netcdf/*_night_*.nc
+   - id: ascata-l2-coastal-wind-speed-2880-x-1440-night
+     path: /data/web/giri/images/wind_speed/ascata_l2_coastal/netcdf/*_night_*.nc
      variable: ascata_l2_coastal___wind_speed___2880_x_1440___night
+     priority: 1
+     forward-processing-priority: 5
+   - id: ascata-l2-coastal-wind-speed-2880-x-1440-day
+     path: /data/web/giri/images/wind_speed/ascata_l2_coastal/netcdf/*_day_*.nc
+     variable: ascata_l2_coastal___wind_speed___2880_x_1440___day
      priority: 1
      forward-processing-priority: 5
 
